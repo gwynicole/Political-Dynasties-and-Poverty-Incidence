@@ -14,3 +14,24 @@ This project explores the relationship between political dynasties and poverty i
 - pip install geopandas sphfile networkx pyvis ipython scipy
 - pip install --upgrade pandas linearmodels
 - pip install python-louvain
+
+# Code Summary
+1. Data Preparation
+Load poverty and political dynasty datasets.
+Merge datasets and align regional labels.
+Generate full names for dynasty tracking.
+
+2. Geospatial Analysis
+Load Philippine shapefiles using geopandas.
+Visualize poverty incidence per region from 2003 to 2021.
+Highlight top 5 poorest regions per year with custom legends.
+
+3. Statistical Analysis
+Prepare datasets for regression analysis.
+Explore relationship between "fat dynasties" and poverty over time.
+Use PanelOLS and other models from linearmodels for regression.
+
+# Output
+- Series of maps showing poverty incidence by region.
+- Regression summaries evaluating influence of political dynasties on poverty.
+- Visualizations created with matplotlib, geopandas, and seaborn.
