@@ -35,3 +35,13 @@ Use PanelOLS and other models from linearmodels for regression.
 - Series of maps showing poverty incidence by region.
 - Regression summaries evaluating influence of political dynasties on poverty.
 - Visualizations created with matplotlib, geopandas, and seaborn.
+
+# Key Libraries
+- pandas, numpy — Data handling
+- statsmodels, linearmodels — Econometric modeling
+- geopandas, matplotlib, seaborn — Visualization
+- networkx, pyvis, community_louvain — Political network analysis (optional extensions)
+
+  # Notes
+- Ensure that the shapefile and poverty data CSV are properly formatted and aligned with the region names used in the analysis.
+- Run the notebooks/cells sequentially to avoid dependency issues.
